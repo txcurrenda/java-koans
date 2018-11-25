@@ -7,11 +7,11 @@
         </suite>
         <suite class="AboutAssertions"/>
         <suite class="AboutArithmeticOperators"/>
-        <!--<suite class="AboutEquality"/>-->
-        <!--<suite class="AboutStrings"/>-->
-        <!--<suite class="AboutConditionals"/>-->
-        <!--<suite class="AboutLoops" />-->
-        <!--<suite class="AboutPrimitives" />-->
+        <suite class="AboutStrings"/>
+        <suite class="AboutPrimitives" />
+        <suite class="AboutLoops" />
+        <suite class="AboutConditionals"/>
+        <suite class="AboutEquality"/>
         <!--<suite class="AboutObjects"/>-->
         <!--<suite class="AboutInheritance"/>-->
         <!--<suite class="AboutCasting"/>-->
