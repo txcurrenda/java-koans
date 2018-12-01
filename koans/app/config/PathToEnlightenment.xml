@@ -17,14 +17,14 @@
         <!--<suite class="AboutCasting"/>-->
         <!--<suite class="AboutConstructors"/>-->
         <!--<suite class="AboutEnums"/>-->
-        <!--<suite class="AboutExceptions"/>-->
+        <suite class="AboutExceptions"/>
         <!--<suite class="AboutMethodPreference"/>-->
         <!--<suite class="AboutBitwiseOperators"/>-->
         <!--<suite class="AboutArrays"/>-->
-        <!--<suite class="AboutVarArgs"/>-->
+        <suite class="AboutVarArgs"/>
     </package>
-    <!--<package pkg="intermediate" name="Intermediate">-->
-        <!--<suite class="AboutAutoboxing"/>-->
+    <package pkg="intermediate" name="Intermediate">
+        <suite class="AboutAutoboxing"/>
         <!--<suite class="AboutCollections"/>-->
         <!--<suite class="AboutComparison"/>-->
         <!--<suite class="AboutDates"/>-->
@@ -34,24 +34,24 @@
         <!--<suite class="AboutLocale"/>-->
         <!--<suite class="AboutRegularExpressions"/>-->
         <!--<suite class="AboutSerialization"/>-->
-    <!--</package>-->
+    </package>
     <!--<package pkg="advanced" name="Advanced">-->
-        <!--<suite class="AboutMocks"/>-->
+    <!--<suite class="AboutMocks"/>-->
     <!--</package>-->
-    <!--<package pkg="java7" name="Java 7">-->
-        <!--<suite class="AboutJava7LiteralsEnhancements"/>-->
-        <!--<suite class="AboutStringsInSwitch"/>-->
-        <!--<suite class="AboutDiamondOperator"/>-->
+    <package pkg="java7" name="Java 7">
+        <suite class="AboutJava7LiteralsEnhancements"/>
+        <suite class="AboutStringsInSwitch"/>
+        <suite class="AboutDiamondOperator"/>
         <!--<suite class="AboutTryWithResources"/>-->
-        <!--<suite class="AboutRequireNotNull"/>-->
-    <!--</package>-->
+        <suite class="AboutRequireNotNull"/>
+    </package>
     <!--<package pkg="java8" name="Java 8">-->
-        <!--<suite class="AboutDefaultMethods"/>-->
-        <!--<suite class="AboutOptional"/>-->
-        <!--<suite class="AboutLocalTime"/>-->
-        <!--<suite class="AboutLambdas"/>-->
-        <!--<suite class="AboutStreams"/>-->
-        <!--<suite class="AboutMultipleInheritance"/>-->
-        <!--<suite class="AboutBase64"/>-->
+    <!--<suite class="AboutDefaultMethods"/>-->
+    <!--<suite class="AboutOptional"/>-->
+    <!--<suite class="AboutLocalTime"/>-->
+    <!--<suite class="AboutLambdas"/>-->
+    <!--<suite class="AboutStreams"/>-->
+    <!--<suite class="AboutMultipleInheritance"/>-->
+    <!--<suite class="AboutBase64"/>-->
     <!--</package>-->
 </packages>
