@@ -45,13 +45,13 @@
         <!--<suite class="AboutTryWithResources"/>-->
         <suite class="AboutRequireNotNull"/>
     </package>
-    <!--<package pkg="java8" name="Java 8">-->
-    <!--<suite class="AboutDefaultMethods"/>-->
-    <!--<suite class="AboutOptional"/>-->
-    <!--<suite class="AboutLocalTime"/>-->
-    <!--<suite class="AboutLambdas"/>-->
-    <!--<suite class="AboutStreams"/>-->
-    <!--<suite class="AboutMultipleInheritance"/>-->
-    <!--<suite class="AboutBase64"/>-->
-    <!--</package>-->
+    <package pkg="java8" name="Java 8">
+        <suite class="AboutDefaultMethods"/>
+        <suite class="AboutOptional"/>
+        <suite class="AboutLocalTime"/>
+        <suite class="AboutLambdas"/>
+        <suite class="AboutStreams"/>
+        <suite class="AboutMultipleInheritance"/>
+        <!--<suite class="AboutBase64"/>-->
+    </package>
 </packages>
