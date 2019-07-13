@@ -11,7 +11,6 @@
         <suite class="AboutStrings"/>
         <suite class="AboutConditionals"/>
         <suite class="AboutLoops" />
-        <suite class="AboutAssertions"/>
         <suite class="AboutEquality"/>
         <suite class="AboutObjects"/>
         <suite class="AboutConstructors"/>
@@ -19,6 +18,7 @@
         <suite class="AboutInheritance"/>
         <suite class="AboutCasting"/>
         <suite class="AboutRegularExpressions"/>
+<!--        <suite class="AboutAssertions"/>-->
         <!--<suite class="AboutMethodPreference"/>-->
         <!--<suite class="AboutBitwiseOperators"/>-->
 <!--        <suite class="AboutVarArgs"/>-->
@@ -29,7 +29,7 @@
         <suite class="AboutAutoboxing"/>
         <suite class="AboutEquality"/>
         <suite class="AboutComparison"/>
-        <suite class="AboutDates"/>
+<!--        <suite class="AboutDates"/>-->
         <!--<suite class="AboutFileIO"/>-->
         <!--<suite class="AboutInnerClasses"/>-->
 <!--        <suite class="AboutLocale"/>-->
