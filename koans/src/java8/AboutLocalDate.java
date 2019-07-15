@@ -40,7 +40,7 @@ public class AboutLocalDate {
         LocalDate groundhogDay = LocalDate.of(2016, Month.FEBRUARY, 2);
         int dayOfYear = groundhogDay.get(ChronoField.DAY_OF_YEAR);
 
-        assertEquals(dayOfYear, __);
+        assertEquals(dayOfYear, 33);
 
         /*
          * Here's the equivalent with LocalTime.  Note that LocalTime has no
@@ -50,9 +50,9 @@ public class AboutLocalDate {
          * methods, rather than a single "get" method where you pass constants.
          */
         LocalTime time = LocalTime.of(2, 30, 45);
-        assertEquals(time.getHour(), __);
-        assertEquals(time.getMinute(), __);
-        assertEquals(time.getSecond(), __);
+        assertEquals(time.getHour(), 2);
+        assertEquals(time.getMinute(), 30);
+        assertEquals(time.getSecond(), 45);
     }
 
     /**
@@ -71,8 +71,8 @@ public class AboutLocalDate {
         LocalDate springBreakStart = LocalDate.of(2016, Month.MARCH, 12);
         LocalDate springBreakEnd = springBreakStart.plusDays(7);
 
-        assertEquals(springBreakStart.getDayOfMonth(), __);
-        assertEquals(springBreakEnd.getDayOfMonth(), __);
+        assertEquals(springBreakStart.getDayOfMonth(), 12);
+        assertEquals(springBreakEnd.getDayOfMonth(), 19);
     }
 
     /**
@@ -89,7 +89,7 @@ public class AboutLocalDate {
         LocalDate quarterlyMeeting = LocalDate.of(2016, Month.FEBRUARY, 2);
         LocalDate nextMeeting = quarterlyMeeting.plus(quarter);
 
-        assertEquals(nextMeeting.getDayOfMonth(), __);
+        assertEquals(nextMeeting.getDayOfMonth(), 2);
     }
 
     /**
@@ -115,11 +115,11 @@ public class AboutLocalDate {
         LocalDateTime notGroundhogDay2017 = groundhogDay2016.plus(oneYearDuration);
         Duration leapYearDuration = Duration.between(groundhogDay2016, groundhogDay2017);
 
-        assertEquals(groundhogDay2017.getDayOfMonth(), __);
-        assertEquals(notGroundhogDay2017.getDayOfMonth(), __);
+        assertEquals(groundhogDay2017.getDayOfMonth(), 2);
+        assertEquals(notGroundhogDay2017.getDayOfMonth(), 1);
 
         long leapYearDays = leapYearDuration.toDays();
-        assertEquals(leapYearDays, __);
+        assertEquals(leapYearDays, 366L);
         assertTrue(leapYearDays != oneYearDuration.toDays());
     }
 
@@ -139,19 +139,19 @@ public class AboutLocalDate {
 
         LocalDateTime july4th = LocalDateTime.of(2016, Month.JULY, 4, 2, 33); // 7-4-2016 2:33
 
-        assertEquals(formatter.format(july4th), __);
+        assertEquals(formatter.format(july4th), "07/04/2016 02:33");
     }
 
     @Koan
     public void localTime() {
         LocalTime t1 = LocalTime.of(7, 30);
-        assertEquals(t1, LocalTime.parse(__));
+        assertEquals(t1, LocalTime.parse("07:30"));
     }
 
     @Koan
     public void localTimeMinus() {
         LocalTime t1 = LocalTime.parse("10:30");
         LocalTime t2 = t1.minus(2, ChronoUnit.HOURS);
-        assertEquals(t2, LocalTime.parse(__));
+        assertEquals(t2, LocalTime.parse("08:30"));
     }
 }
